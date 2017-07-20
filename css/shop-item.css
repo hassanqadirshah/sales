@@ -1,0 +1,70 @@
+/*!
+ * Start Bootstrap - Shop Item HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.ratings {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #d17581;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+    color: #333;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.invoice {
+    font-size: 20px;
+    margin-left: 830px;
+    margin-top: 20px;
+}
+
+.btn_addrow {
+    margin-left: 910px;
+}
+
+.payment {
+    font-weight: bold;
+    margin-left: 800px;
+    margin-top: 10px;
+    text-align: left;
+    width: 200px;
+}
+
+.td_sale{
+    padding-left: 20px;
+    text-align: right;
+}
+.errorClass { border:  1px solid red; }
+.form_distance {
+    margin-right: 5%;
+}
+.top-form{
+    border: 1px solid black;
+    width: 63%;
+    padding: 5px;
+}
+.btn-space{
+    margin-right: 5px;
+}
+#my_table_report_wrapper{
+    width: 995px;
+}

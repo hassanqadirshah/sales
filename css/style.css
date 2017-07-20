@@ -1,0 +1,415 @@
+/* 
+    Document   : style
+    Created on : Dec 18, 2014, 11:47:23 AM
+    Author     : Wahab Anjum
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body{
+    background-color: #b6b6b6;
+    font-family: arial;
+}
+
+input[type=submit],form a{
+    border: none;
+    margin-right: 1em;
+    padding: 6px;
+    text-decoration: none;
+    font-size: 12px;
+    background: #348075;
+    color: white;
+    box-shadow: 0 1px 0 white;
+}
+
+table{
+    width: 800px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.simple{
+    width: 200px !important;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+td{
+    border-right: 1px solid #aaaaaa;
+    height: 30px;
+}
+
+td:last-child{
+    border-right: none;
+}
+
+.action{
+    width: 200px;
+}
+
+.new-action{
+    width: 250px;
+}
+
+button{
+    border: none;
+    margin-right: 1em;
+    padding: 6px;
+    text-decoration: none;
+    font-size: 12px;
+    background: #348075;
+    color: white;
+    box-shadow: 0 1px 0 white;
+}
+
+.header{
+    font-size: 20px;
+    font-weight: bold;
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 1000px;
+    margin: auto;
+}
+
+.a-button{
+    display: block;
+    width: 130px;
+}
+
+.nav.nav-new{
+    margin:0;
+    padding:0;
+    list-style:none;
+    height:36px; line-height:36px;
+    background:#0d7963; /* you can change the backgorund color here. */
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:13px;
+}
+ul.nav li {
+    border-right:1px solid #189b80; /* you can change the border color matching to your background color */
+    float:left;
+}
+ul.nav a {
+    display:block;
+    width: 100px;
+    padding:0 28px;
+    color:#ccece6;
+    text-decoration:none;
+}
+ul.nav a:hover,
+ul.nav li.current a {
+    background:#086754;
+}
+
+.filter
+{
+    margin-left: 1080px;
+    width: 300px;
+}
+
+.sale_fieldset {
+    height: 130px;
+    margin-top: 20px;
+    width: 1050px;
+}
+
+@keyframes flickerAnimation {
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-o-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-moz-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-webkit-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+.sale_span {
+    color:red;
+   -webkit-animation: flickerAnimation 3s infinite;
+   -moz-animation: flickerAnimation 3s infinite;
+   -o-animation: flickerAnimation 3s infinite;
+    animation: flickerAnimation 3s infinite;
+}
+/* Login form design */
+
+*{margin:0;padding:0;}
+
+/*body{
+  background:#567;
+  font-family:'Open Sans',sans-serif;
+}*/
+
+.login .button{
+  width:100px;
+  background:#3399cc;
+  display:block;
+  margin:0 auto;
+  margin-top:1%;
+  padding:10px;
+  text-align:center;
+  text-decoration:none;
+  color:#fff;
+  cursor:pointer;
+  transition:background .3s;
+  -webkit-transition:background .3s;
+}
+
+.login.button:hover{
+  background:#2288bb;
+}
+
+#login{
+  width:400px;
+  margin:0 auto;
+  margin-top:8px;
+  margin-bottom:2%;
+  transition:opacity 1s;
+  -webkit-transition:opacity 1s;
+}
+
+#triangle{
+  width:0;
+  border-top:12x solid transparent;
+  border-right:12px solid transparent;
+  border-bottom:12px solid #3399cc;
+  border-left:12px solid transparent;
+  margin:0 auto;
+}
+
+#login h1{
+  background:#3399cc;
+  padding:20px 0;
+  font-size:140%;
+  font-weight:300;
+  text-align:center;
+  color:#fff;
+}
+
+.login form{
+  background:#f0f0f0;
+  padding:6% 4%;
+}
+
+.login input[type="email"],input[type="password"]{
+  width:92%;
+  background:#fff;
+  margin-bottom:4%;
+  border:1px solid #ccc;
+  padding:4%;
+  font-family:'Open Sans',sans-serif;
+  font-size:95%;
+  color:#555;
+}
+
+.login input[type="submit"]{
+  width:100%;
+  background:#3399cc;
+  border:0;
+  padding:4%;
+  font-family:'Open Sans',sans-serif;
+  font-size:100%;
+  color:#fff;
+  cursor:pointer;
+  transition:background .3s;
+  -webkit-transition:background .3s;
+}
+
+.login input[type="submit"]:hover{
+  background:#2288bb;
+}
+
+.create-acc a{
+    color: red;
+    font-size: 12px;
+    margin-left: 290px;
+    text-decoration: underline;
+}
+/* signup page design */
+.signup body,.signup div,.signup dl,.signup dt,.signup dd,.signup ul,.signup ol,.signup li,.signup h1,.signup h2,
+.signup h3,.signup h4,.signup h5,.signup h6, 
+.signup pre,.signup form,.signup fieldset,.signup input,.signup textarea,.signup p,.signup blockquote,.signup th,.signup td { 
+  padding:0;
+  margin:0;}
+
+.signup fieldset,.signup img {border:0}
+
+.signup ol, ul, li {list-style:none}
+
+.signup :focus {outline:none}
+
+.signup body,
+.signup input,
+.signup textarea,
+.signup select {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #4c4c4c;
+}
+
+.signup p {
+  font-size: 12px;
+  width: 150px;
+  display: inline-block;
+  margin-left: 18px;
+}
+.signup h1 {
+  font-size: 32px;
+  font-weight: 300;
+  color: #4c4c4c;
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+.signup .testbox {
+  margin: 20px auto;
+  width: 343px; 
+  height: 464px; 
+  -webkit-border-radius: 8px/7px; 
+  -moz-border-radius: 8px/7px; 
+  border-radius: 8px/7px; 
+  background-color: #ebebeb; 
+  -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+  -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+  box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+  border: solid 1px #cbc9c9;
+}
+
+.signup input[type=radio] {
+  visibility: hidden;
+}
+
+.signup form{
+  margin: 0 30px;
+}
+
+.signup label.radio {
+	cursor: pointer;
+  text-indent: 35px;
+  overflow: visible;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.signup label.radio:before {
+  background: black;
+  content:'';
+  position: absolute;
+  top:2px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+}
+
+.signup label.radio:after {
+	opacity: 0;
+	content: '';
+	position: absolute;
+	width: 0.5em;
+	height: 0.25em;
+	background: transparent;
+	top: 7.5px;
+	left: 4.5px;
+	border: 3px solid #ffffff;
+	border-top: none;
+	border-right: none;
+
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+.signup input[type=radio]:checked + label:after {
+	opacity: 1;
+}
+
+.signup hr{
+  color: #a9a9a9;
+  opacity: 0.3;
+}
+
+.signup input[type=text], .signup input[type=password]{
+  width: 200px; 
+  height: 39px; 
+  -webkit-border-radius: 0px 4px 4px 0px/5px 5px 4px 4px; 
+  -moz-border-radius: 0px 4px 4px 0px/0px 0px 4px 4px; 
+  border-radius: 0px 4px 4px 0px/5px 5px 4px 4px; 
+  background-color: #fff; 
+  -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+  -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+  box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+  border: solid 1px #cbc9c9;
+  margin-left: -5px;
+  margin-top: 13px; 
+  padding-left: 10px;
+}
+
+.signup input[type=password]{
+  margin-bottom: 25px;
+}
+
+#icon {
+  display: inline-block;
+  width: 30px;
+  background-color: black;
+  padding: 8px 0px 8px 15px;
+  margin-left: 15px;
+  -webkit-border-radius: 4px 0px 0px 4px; 
+  -moz-border-radius: 4px 0px 0px 4px; 
+  border-radius: 4px 0px 0px 4px;
+  color: white;
+  -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.09);
+  -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+  box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+  border: solid 0px #cbc9c9;
+}
+
+.signup .gender {
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.signup input[type=submit]{
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  padding: 6px 25px 0px 20px;
+  margin: 10px 8px 20px 0px;
+  display: inline-block;
+  float: right;
+  text-decoration: none;
+  width: 90px; height: 40px; 
+  -webkit-border-radius: 5px; 
+  -moz-border-radius: 5px; 
+  border-radius: 5px; 
+  background-color: black; 
+  -webkit-box-shadow: 2px 3px grey; 
+  -moz-box-shadow: 2px 3px grey; 
+  box-shadow: 2px 3px grey;
+  transition: all 0.1s linear 0s; 
+  top: 0px;
+  position: relative;
+}
+
+.signup input[type=submit]:hover {
+  top: 3px;
+  background-color:black;
+  -webkit-box-shadow: none; 
+  -moz-box-shadow: none; 
+  box-shadow: none;
+  
+}
